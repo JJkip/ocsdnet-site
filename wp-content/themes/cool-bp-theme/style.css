@@ -1,0 +1,19 @@
+/*
+Theme Name: Buddypress
+Author: {modidev}
+Author URI: devs.mobi
+Description:  ocsdnet platform
+Version:1.0
+Tags: buddypress
+Template: cbox-theme
+*/
+
+/* Inherit the default theme styles */
+@import url( ../../plugins/buddypress/bp-themes/bp-default/_inc/css/default.css );
+  
+/* Inherit the default theme adminbar styles */
+@import url( ../../plugins/buddypress/bp-themes/bp-default/_inc/css/adminbar.css );
+
+/* Inherit the default theme styles bbpress*/
+@import url( ../../plugins/bbpress/templates/default/css/bbpress.css );
+  

@@ -1,0 +1,533 @@
+.main-wrap
+{
+  position: relative;
+  width: 110%;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+}
+
+.log-in .btn-primary,
+.log-in .btn-primary:hover
+{
+  color: #F38020;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.navbar-inverse{
+	background-color: #FFF;
+	border-color: #FFF;
+	position: relative;
+	-webkit-box-shadow: 0 3px 8px -1px #999;
+	-moz-box-shadow: 0 3px 8px -1px #999;
+	box-shadow: 0 3px 8px -1px #999;
+}
+.wet-asphalt {
+/* background-color: #34495E; */
+	background-color: #FDFDFD;
+}
+
+.carousel .item img
+{
+   position: relative;
+   max-height: 511px;
+   width: 100%;
+}
+
+.carousel .carousel-caption
+{
+  position: absolute;
+  bottom: 80px;
+  height: 100px;
+  color: #fff !important;
+}
+
+.carousel .carousel-caption .bg-overlay,
+.carousel .carousel-caption .content
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+}
+
+.carousel .carousel-caption .bg-overlay
+{
+  background-color: #3f9ca9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  opacity: 0.8;
+  z-index: 50;
+}
+
+.carousel .carousel-caption .content
+{
+  z-index: 100;
+}
+
+.carousel .carousel-caption h4
+{
+  color: #fff;
+  font-size: 18px;
+}
+
+.carousel .carousel-caption a,
+.carousel .carousel-caption a:hover,
+.carousel .carousel-caption a:visited,
+.carousel .carousel-caption a:focus
+{
+  text-decoration: none;
+}
+
+
+.carousel-indicators li
+{
+  background-color: #fff;
+  border: none;
+}
+
+.carousel-indicators li.active
+{
+  background-color: #3f9ca9;
+}
+
+.carousel-control .icon-next, .carousel-control .slider-arrow-right {
+	right: 50%;
+	margin-right: -10px;
+}
+.carousel-control .icon-prev, .carousel-control .slider-arrow-left {
+	left: 50%;
+	margin-left: -10px;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .slider-arrow-left, .carousel-control .slider-arrow-right{
+	position: absolute;
+	top: 40%;
+	z-index: 5;
+	display: inline-block;
+	}
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
+	color: #f48020;
+}
+.subscribe-section{
+        position: relative;
+	background: #FFF;
+        width: 100%;
+}
+.subscribe {
+padding: 20px 0px 20px 0px;
+}
+.btn-subscribe{
+	background: #FFFFFF;
+	border-color: #5b0634;
+	color: #5b0634;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.btn-subscribe:hover{
+	background: #5b0634;
+	border-color: #FFFFFF;
+	color:#FFFFFF;
+}
+.general-panel-section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.general-panel-section .panel-body
+{
+   height: 440px;
+}
+
+@media (max-width:400px){
+  .general-panel-section .panel-body
+  {
+     min-height: 500px;
+     height: auto;
+  }
+}
+
+.footer-content-links{
+	background-color: #536D89;
+	/*height: 120px;*/
+}
+.footer-copyright{
+	height: 60px;
+  background-color: #394042;
+}
+.footer-copyright p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-copyright p a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #A19F9F;
+}
+/*.grant-winner li {
+display: -webkit-inline-box;
+display: -moz-inline-box;
+
+}*/
+
+.blog-post-date,
+.grant-winner-image{
+  padding-top: 5px;
+  padding-right: 15px;
+  text-align: center;
+  width: 80px;
+}
+
+.blog-post-article,
+.grant-winner-article{
+  width: 241px;
+  padding-left: 10px;
+}
+
+.blog-post-date h4 {
+font-size: 16px;
+font-weight: 300;
+margin-top: 0px;
+}
+
+.grant-winner-article a{
+	font-style: italic;
+}
+
+
+.blog-post-article p,
+.grant-winner-article p{
+	color: #5B0634;
+  font-size: 15px;
+  font-weight: 600;
+  vertical-align: center;
+}
+
+.blog-post-article p
+{
+   color: #add037;
+}
+
+.forum-list a{
+	color:#333333;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.forum-list a:hover,.forum-list a:focus,.forum-list a:active,.forum-list a:visited{
+	text-decoration: none;
+	color:#333333;	
+}
+
+
+.event-title p{
+	color:#333333;
+	font-weight: 600;
+	font-size: 15px;
+}
+.event-month {
+text-align: center;
+width: 80px;
+}
+.event-month h4 {
+font-size: 16px;
+font-weight: 300;
+margin-top: 0px;
+}
+.event-title {
+width: 241px;
+padding-left: 15px;
+}
+/*ul.forum-list li {
+padding: 13px 0px 13px 5px;
+}
+ul.forum-list li:first-child {
+border-bottom: 1px solid #666;
+}*/
+/*.panel-heading {
+padding: 10px 10px 30px 15px;
+}*/
+.panel-heading img{
+	padding-right:15px;
+}
+.panel-heading h3{
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.panel-default>.panel-heading{
+	background-color: #FFFFFF;
+}
+.panel-events{
+	border-color: #f48020;
+    font-size: 16px;
+}
+.panel-events h3{
+	color: #f48020;
+}
+.panel-events>.panel-heading {
+	color: #333;
+	border-color: #f48020;
+}
+
+.more-events{
+	text-align: center;
+	background-color: #f48020;
+	color:#FFF;	
+}
+.more-events a,.more-events a:hover,.more-events a:focus,.more-events a:active,.more-events a:visited{
+	text-decoration: none;
+	color:#FFF;	
+}
+.panel-forum{
+	border-color: #add037;
+}
+.panel-forum h3{
+	color: #add037;
+}
+.panel-forum>.panel-heading {
+	color: #333;
+	border-color: #add037;
+}
+.more-forum{
+	text-align: center;
+	background-color: #add037;
+	color:#FFF;
+}
+.more-forum a,.more-forum a:hover,.more-forum a:focus,.more-forum a:active,.more-forum a:visited{
+	text-decoration: none;
+	color:#FFF;	
+}
+.panel-articles{
+	border-color: #5B0634;
+}
+.panel-articles h3{
+	color: #5B0634;
+}
+.panel-articles>.panel-heading {
+	color: #333;
+	border-color: #5B0634;
+}
+.more-articles{
+	text-align: center;
+	background-color: #5B0634;
+	color:#FFF;	
+}
+.more-articles a,.more-articles a:hover,.more-articles a:focus,.more-articles a:active,.more-articles a:visited{
+	text-decoration: none;
+	color:#FFF;	
+}
+.panel-footer a{
+	font-size:16px;
+}
+
+
+.subscribe-header h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+}
+.subscribe-form {
+padding-left: 25%;
+}
+.footer-content-links{
+	color:#FFFFFF;
+}
+.quick-links ul {
+list-style: none;
+}
+ul.list-group li a, ul.list-group li a:hover, ul.list-group li a:focus, ul.list-group li a:active, ul.list-group li a:visited{
+	text-decoration: none;
+	color:#FFF;	
+}
+.share-links ul li{	
+width: 30px;
+height: 30px;
+
+}
+.share-links ul li a img{
+	display: inline-block !important;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+/* share buttons */
+.share-links{
+    display:block;
+    background:#f9f9f9;
+    width:100%;
+    max-width:492px;
+    padding:5px 3px 5px 10px;
+    border-radius:0 0 5px 5px;
+    float:right;
+}
+.share-links label{
+    display:block;
+    float:left;
+    width:80px;
+    text-transform:uppercase;
+    font-size:13px;
+    color:#999999;
+    margin-top:8px;
+}
+.share-links ul{
+    display:block;
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+    width:160px;
+}
+
+.share-links ul li{
+    display:inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.share-links ul li a.share-icon{
+    display:block;
+    width:32px;
+    height:32px;
+    overflow:hidden;
+}
+.share-links ul li a.share-fb{
+    background:url(../images/fb-icon-bw.png) center no-repeat;
+}
+.share-links ul li a.share-tw{
+    background:url(../images/twitter-icon-bw.png) center no-repeat;
+}
+.share-links ul li a.share-gp{
+    background:url(../images/gplus-icon-bw.png) center no-repeat;
+}
+.share-links ul li a.share-ln{
+    background:url(../images/linkedin-icon-bw.png) center no-repeat;
+}
+.share-links .search-form{
+    display:block;
+    width: 227px;
+    float:left;
+    padding-top:2px;
+}
+button.sbtn {
+border: none;
+}
+.share-links .sbtn{
+    display:block;
+    width:33px;
+    min-width:33px;
+    text-align:center;
+    background:#e7e6e6;
+    float:right;
+    padding:2px;
+}
+
+.sbtn{
+	border:none;
+	background:#394042;
+	border-radius:0;
+	color:#FFF;
+	text-align:center;
+	min-width:140px;
+	padding:12px 20px;
+	
+	appearance:none;
+	-webkit-appearance: none;
+	border-radius:0;
+}
+.share-links #searchfield_search{
+    background:#ffffff;
+    border:1px solid #d7d7d7;
+    color:#707070;
+    font-size:13px;
+    font-weight:600;
+    padding:5px;
+    outline:none;
+}
+  #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        /*-webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;*/
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+/* Footer Social icons */
+
+.textwidget p a {
+  width: 28px;
+  height: 28px;
+  display: inline-block !important;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.textwidget p a:hover{
+  background-position: 0 -38px;
+}
+
+ .textwidget p .facebook {
+  background: url(../images/fb.png) no-repeat;
+}
+
+.textwidget p .googleplus {
+  background: url(../images/gp.png) no-repeat;
+}
+
+.textwidget p .linkedin {
+  background: url(../images/ln.png) no-repeat;
+}
+
+.textwidget p .twitter {
+  background: url(../images/tw.png) no-repeat;
+}
+.navbar-brand>img {
+padding-top: 10px;
+}
+.carousel-caption a {
+	color:#FFFFFF;
+}
